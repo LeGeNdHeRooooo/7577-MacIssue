@@ -1,0 +1,250 @@
+Apr 17 09:35:58 MacBook-Pro bspowerassertiontool[554]: Tool exited successfully (0).
+Apr 17 09:35:58 MacBook-Pro Unknown[560]: Launching the Language Chooser for an OS Install
+Apr 17 09:35:58 MacBook-Pro launchprogresswindow[557]: ISAP: Show progress UI called
+Apr 17 09:35:59 MacBook-Pro opendirectoryd[195]: [session] Processing a network change notification
+Apr 17 09:35:59 MacBook-Pro Installer Progress[190]: Progress UI App Starting
+Apr 17 09:36:13 MacBook-Pro opendirectoryd[195]: [session] PID: 196, Client: 'apsd', exited with 0 session(s), 0 node(s) and 0 active request(s)
+Apr 17 09:36:18 MacBook-Pro powerd[182]: Display is turned on
+Apr 17 09:36:22 MacBook-Pro opendirectoryd[195]: [session] Received a network change notification
+Apr 17 09:36:22 MacBook-Pro opendirectoryd[195]: [session] Received a network change notification
+Apr 17 09:36:25 MacBook-Pro opendirectoryd[195]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 583, PROC: apsd
+Apr 17 09:36:25 MacBook-Pro opendirectoryd[195]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Apr 17 09:36:25 MacBook-Pro opendirectoryd[195]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: IASGetCurrentInstallPhaseList: phases = (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "OS Installer";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "EFI Firmware Update";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 2";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser 2";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = "-1";
+	        InstallPhase = "OS Installer 2";
+	        InstallPhasePercentageKey = 70;
+	    }
+	)
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: IASGetCurrentInstallPhase: Current phase name is "OS Installer 2"
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: phaseName = OS Installer 2
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: _currentPhase = "<IASPPhase: 0x7fe1f2711540: 'OS Installer 2', percentage 70.0, delay -1>", _phases = (
+	    "<IASPPhase: 0x7fe1f261bcd0: 'Boot 1', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f27118f0: 'Language Chooser', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f261c900: 'OS Installer', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f261ba80: 'EFI Firmware Update', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f261bf80: 'Boot 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2711520: 'Language Chooser 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2711540: 'OS Installer 2', percentage 70.0, delay -1>"
+	)
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: IASGetCurrentInstallPhaseList: phases = (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "OS Installer";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "EFI Firmware Update";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 2";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser 2";
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = "-1";
+	        InstallPhase = "OS Installer 2";
+	        InstallPhasePercentageKey = 70;
+	    }
+	)
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: IASGetCurrentInstallPhase: Current phase name is "OS Installer 2"
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: phaseName = OS Installer 2
+Apr 17 09:36:26 MacBook-Pro Installer Progress[190]: _currentPhase = "<IASPPhase: 0x7fe1f261c900: 'OS Installer 2', percentage 70.0, delay -1>", _phases = (
+	    "<IASPPhase: 0x7fe1f2712160: 'Boot 1', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2713350: 'Language Chooser', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2713370: 'OS Installer', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2712a70: 'EFI Firmware Update', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f2712a90: 'Boot 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f261ba80: 'Language Chooser 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x7fe1f261c900: 'OS Installer 2', percentage 70.0, delay -1>"
+	)
+Apr 17 09:36:27 MacBook-Pro opendirectoryd[195]: [session] Processing a network change notification
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: Progress app is loading…
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: Progress app is running…
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: Showing Progress UI
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: There are 0 window(s) and 1 display(s), 1 window(s) will be added
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: IOProgressColorTheme is set to 1
+Apr 17 09:36:27 MacBook-Pro Installer Progress[190]: Created a window at {{0, 0}, {1920, 1080}}
+Apr 17 09:36:29 MacBook-Pro Language Chooser[561]: Using progress phase: Language Chooser
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: 2020-04-17 09:36:29.093 Language Chooser[561:8369] NSDisabledCharacterPaletteMenuItem=YES
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: 2020-04-17 09:36:29.111 Language Chooser[561:8369] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28673.
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Status is ""
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Alternate status is ""
+Apr 17 09:36:29 MacBook-Pro Language Chooser[561]: Setup: Factory cable attached: 0
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: Setting boot completed.
+Apr 17 09:36:29 MacBook-Pro Language Chooser[561]: Set keyboard to id: 0
+Apr 17 09:36:29 MacBook-Pro Unknown[562]: 2020-04-17 09:36:29.593 Language Chooser[561:8369] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.ViewBridge.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7fa9b173d5a0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Apr 17 09:36:29 MacBook-Pro Language Chooser[561]: Found primary language hint "en"
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Setting window alpha values to 0.0
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Ordering windows front
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Ordering windows front
+Apr 17 09:36:29 MacBook-Pro Installer Progress[190]: Setting window alpha values to 1.0
+Apr 17 09:36:29 MacBook-Pro Language Chooser[561]: Launching the Installer using language code "en"
+Apr 17 09:36:31 MacBook-Pro Unknown[562]: objc[595]: Class ILCConnection is implemented in both /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities (0x10ab6a468) and /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer (0x10a618388). One of the two will be used. Which one is undefined.
+Apr 17 09:36:31 MacBook-Pro Unknown[562]: objc[595]: Class ILCBaseConnection is implemented in both /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities (0x10ab6a4b8) and /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer (0x10a6183d8). One of the two will be used. Which one is undefined.
+Apr 17 09:36:31 MacBook-Pro Unknown[562]: 2020-04-17 09:36:31.773 macOS Installer[595:35624] NSDisabledCharacterPaletteMenuItem=YES
+Apr 17 09:36:31 MacBook-Pro storagekitd[596]: Starting SKDaemon...
+Apr 17 09:36:31 MacBook-Pro storagekitd[596]: Client entitled for destructive operations
+Apr 17 09:36:31 MacBook-Pro storagekitd[596]: Adding client connection <NSXPCConnection: 0x7f9057d0e800> connection from pid 595
+Apr 17 09:36:31 MacBook-Pro Language Chooser[561]: Not hiding Language Chooser in window counter
+Apr 17 09:36:32 MacBook-Pro Unknown[562]: 2020-04-17 09:36:32.021 macOS Installer[595:35624] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.ViewBridge.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7fade8512920 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Apr 17 09:36:33 MacBook-Pro Language Chooser[561]: ISAP: Done with Phase "Language Chooser"
+Apr 17 09:36:33 MacBook-Pro Installer Progress[190]: Done with phase = "Language Chooser"
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connected to daemon. Language set to: English
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connected to daemon. Language set to: English
+Apr 17 09:36:33 MacBook-Pro Unknown[562]: 2020-04-17 09:36:33.477 macOS Installer[595:35881] Connected to daemon. Language set to: English
+Apr 17 09:36:33 MacBook-Pro Unknown[562]: 2020-04-17 09:36:33.477 macOS Installer[595:35881] Connected to daemon. Language set to: English
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: No mutable product specified in NVRAM.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: We are not image source booted attempting more robust automation fallback.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: No mutable product specified on boot disk.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Hardware: MacBookPro14,1 @ 2.50 GHz (x 4), 8192 MB RAM
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Running OS Build: Mac OS X 10.14.6 (18G103)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: DYLD_NO_FIX_PREBINDING=1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: PWD=/
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: XPC_FLAGS=0x0
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: XPC_SERVICE_NAME=0
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: SHLVL=1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: __OSINSTALL_ENVIRONMENT=1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: CI_DEFAULT_OPENCL_USAGE=0
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: OS_INSTALL=1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: CA_ASSERT_MAIN_THREAD_TRANSACTIONS=1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Env: _=/System/Library/CoreServices/Language Chooser.app/Contents/MacOS/Language Chooser
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Will not update firmware because we can't find the mutable product ((null))
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Creating connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connection = 0x7fade853eb20, callers = (
+	    "<IASUPCaller: 0x7fade85541f0>"
+	)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Registering the connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade854b830: phaseName = OS Installer 2
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Mutable product: Looking for automation file at (null)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: No file at (null)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Install Config: Looking for automation file at (null)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: No file at /System/Installation/Packages/Extras/minstallconfig.xml
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Looking for automation file at (null)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: No mutable product found
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Install will not be automated, automation is required to proceed.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade854b830: phaseName = OS Installer 2
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Releasing Connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Failed to open installer document
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connection = 0x7fade853eb20, callers = (
+	    "<IASUPCaller: 0x7fade8737ad0>"
+	)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Registering the connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8738490: phaseName = OS Installer
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8738490: phaseName = "OS Installer"
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: ISAP: hide progress UI called
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: ISAP: hide progress UI called
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Clearing automation and attempting to rebless. source volume: Unknown rebless: Unknown
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Failed to get UUID for system rebless.
+Apr 17 09:36:33 MacBook-Pro Installer Progress[190]: Hiding Progress UI
+Apr 17 09:36:33 MacBook-Pro Installer Progress[190]: Setting window alpha values to 0.0
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: calling progress app remoteObjectProxy
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connection = 0x7fade853eb20, callers = (
+	    "<IASUPCaller: 0x7fade8737ad0>",
+	    "<IASUPCaller: 0x7fade855e760>"
+	)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: version = 2
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: isModernOS = 1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: isModernOS = 1
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Installer progress is currently being shown; will proceed with restart.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: User has not interacted with installer; will proceed with restart.
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Connection = 0x7fade853eb20, callers = (
+	    "<IASUPCaller: 0x7fade8737ad0>",
+	    "<IASUPCaller: 0x7fade855e760>",
+	    "<IASUPCaller: 0x7fade866a3c0>"
+	)
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Registering the connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8634360: phaseName = OS Installer
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8634360: phaseName = "OS Installer"
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: ISAP: hide progress UI called
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: ISAP: hide progress UI called
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8634360: phaseName = OS Installer
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Releasing Connection
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: client 0x7fade8738490: phaseName = OS Installer
+Apr 17 09:36:33 MacBook-Pro OSInstaller[595]: Releasing Connection
+Apr 17 09:36:33 MacBook-Pro Installer Progress[190]: Ordering windows out
+Apr 17 09:37:20 MacBook-Pro powerd[182]: Assertion Created. Type:UserIsActive Name:'com.apple.iohideventsystem.queue.tickle.4294968747.17' Id:0x90000800d Process:hidd [System: DeclUser kDisp]
+Apr 17 09:37:23 MacBook-Pro Unknown[562]: 2020-04-17 09:37:23.647 macOS Installer[595:35624] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Apr 17 09:37:23 MacBook-Pro Unknown[562]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Apr 17 09:37:23 MacBook-Pro Unknown[562]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28673.
+Apr 17 09:37:28 MacBook-Pro storagekitd[596]: Removing client connection <SKDaemonConnection: 0x7f9057d0f830>
+Apr 17 09:37:28 MacBook-Pro storagekitd[596]: No more connections, storagekitd will exit...
+Apr 17 09:37:28 MacBook-Pro Language Chooser[561]: Child process exited 0
+Apr 17 09:37:28 MacBook-Pro Unknown[603]: Launching the Installer Crash Log Viewer
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: Creating connection
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: Connection = 0x7fd4d4d69140, callers = (
+	    "<IASUPCaller: 0x7fd4d4d6cf90>"
+	)
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: Registering the connection
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: client 0x7fd4d4d243b0: phaseName = Installer Crash Catcher
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: client 0x7fd4d4d243b0: phaseName = "Installer Crash Catcher"
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: ISAP: hide progress UI called
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: ISAP: hide progress UI called
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: client 0x7fd4d4d243b0: phaseName = Installer Crash Catcher
+Apr 17 09:37:28 MacBook-Pro Viewer[604]: Releasing Connection
+Apr 17 09:37:43 MacBook-Pro powerd[182]: Assertion Released. Type:PreventUserIdleSystemSleep Name:'com.apple.diskmanagementd' Id:0x100008009 Process:diskmanagementd [System: DeclUser kDisp]
+Apr 17 09:38:05 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Apr 17 09:38:05 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 604, PROC: Installation Log
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] node assigned UUID - A1410781-3BA1-4B77-886D-A79518F0EC19
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 604, PROC: Installation Log
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] ODQueryCreateWithNode request, NodeID: A1410781-3BA1-4B77-886D-A79518F0EC19, RecordType(s): dsRecTypeStandard:SharePoints, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseExact, Value(s): dsRecordsAll, Requested Attributes: afp_use_parent_privs,dsAttrTypeStandard:GeneratedUID,afp_name,smb_inherit_permissions,dsAttrTypeStandard:AppleMetaNodeLocation,afp_shared,dsAttrTypeStandard:RecordType,sharepoint_version,smb_directorymask,smb_name,directory_path,dsAttrTypeStandard:RecordName,afp_use_parent_owner,ftp_shared,smb_shared,smb_guestaccess,smb_oplocks,afp_guestaccess,dsAttrTypeStandard:AppleMetaRecordName,ftp_guestaccess,smb_strictlocking,ftp_name,sharepoint_account_uuid,smb_createmask,sharepoint_group_id, Max Results: 2147483647
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] queuing request to connection - F64A1F78-F3DC-4BF8-828B-2B760572C419 - CFBundle 0x7fd737d00eb0 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Apr 17 09:38:05 MacBook-Pro opendirectoryd[195]: [session] ODQueryCreateWithNode completed
+Apr 17 09:38:06 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Apr 17 09:38:06 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Apr 17 09:38:15 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
+Apr 17 09:38:15 MacBook-Pro Viewer[604]: Folder Manager is being asked to create a folder (down) while running as uid 0
